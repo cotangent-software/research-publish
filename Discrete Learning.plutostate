@@ -232,7 +232,7 @@ end</code></pre>
 &#91;3.0, 3.0, 8.0, 6.0&#93; &#61;&#61; &#91;3.0, 3.0, 8.0, 6.0&#93; -&gt; true
 &#91;3.0, 3.0, 8.0, 6.0&#93; &#61;&#61; &#91;3.0, 3.0, 8.0, 6.0&#93; -&gt; true
 &#91;3.0, 3.0, 8.0, 6.0&#93; &#61;&#61; &#91;3.0, 3.0, 8.0, 6.0&#93; -&gt; true</code></pre>
-</div>°persist_js_stateÂ¤mime©text/html²last_run_timestampËAØjÏ6ğñ¬rootassigneeÀ§cell_idÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9d§runtimeÍ@§erroredÂ«cell_inputsÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9dƒ§cell_idÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9d¤codeÚ/•md"""
+</div>°persist_js_stateÂ¤mime©text/html²last_run_timestampËAØk¬ëÍ¯¬rootassigneeÀ§cell_idÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9d§runtimeÍTa§erroredÂ«cell_inputsÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9dƒ§cell_idÙ$a9d68520-7176-11eb-3696-f1f8fa05ab9d¤codeÚ/•md"""
 # Discrete Learning
 ### Setup
 
@@ -569,4 +569,4 @@ end
     [3.0, 3.0, 8.0, 6.0] == [3.0, 3.0, 8.0, 6.0] -> true
     [3.0, 3.0, 8.0, 6.0] == [3.0, 3.0, 8.0, 6.0] -> true
     
-"""«code_foldedÃ«notebook_idÙ$98ba342c-717a-11eb-12c3-3b3b8b388156«in_temp_dirÂ©shortpath´Discrete Learning.jl¤pathÙH/home/runner/work/research-publish/research-publish/Discrete Learning.jl
+"""«code_foldedÃ«notebook_idÙ$a94d1b70-717c-11eb-3eb2-8d0dcdf3ac60«in_temp_dirÂ©shortpath´Discrete Learning.jl¤pathÙH/home/runner/work/research-publish/research-publish/Discrete Learning.jl

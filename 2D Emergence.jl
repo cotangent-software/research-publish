@@ -4,9 +4,6 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ 94130370-0980-11eb-2af8-e903ab52bea3
-using Plots
-
 # ╔═╡ 72a931f2-7177-11eb-38e0-c50ea724abb7
 begin
 	import Pkg
@@ -14,6 +11,8 @@ begin
 	Pkg.Registry.update()
 	
 	Pkg.add("Plots")
+	
+	using Plots
 end
 
 # ╔═╡ 54ce7910-0985-11eb-329f-290d043c9fdf
@@ -92,8 +91,7 @@ end
 gif(anim, "scratch.gif", fps = 30)
 
 # ╔═╡ Cell order:
-# ╟─72a931f2-7177-11eb-38e0-c50ea724abb7
-# ╠═94130370-0980-11eb-2af8-e903ab52bea3
+# ╠═72a931f2-7177-11eb-38e0-c50ea724abb7
 # ╠═54ce7910-0985-11eb-329f-290d043c9fdf
 # ╠═ee6ff5e0-0984-11eb-28c0-0160e9d508b5
 # ╠═fb1e6ba2-0984-11eb-1733-ed758f0facf0

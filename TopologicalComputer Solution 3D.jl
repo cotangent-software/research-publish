@@ -4,8 +4,15 @@
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ a7033650-7175-11eb-0e14-df624245cf5c
+# ╔═╡ b6cede50-fe79-11ea-10c2-13b9e4851b06
 begin
+	import Pkg
+	Pkg.activate(mktempdir())
+	Pkg.Registry.update()
+	
+	Pkg.add("Plots")
+	Pkg.add("PlutoUI")
+	
 	using LinearAlgebra
 	using Plots
 	using PlutoUI
@@ -18,16 +25,6 @@ The TopologicalComputer N point interpolation problem in 3 dimensions involves t
 
 The solution I present is to use a similar method to the tracing above. Given 4 points, draw two lines between the points such that all 4 points have one line intersecting them. Then start from one end drawing traces between them such that a surface is drawn in the region bounded by the four points.
 "
-
-# ╔═╡ b6cede50-fe79-11ea-10c2-13b9e4851b06
-begin
-	import Pkg
-	Pkg.activate(mktempdir())
-	Pkg.Registry.update()
-	
-	Pkg.add("Plots")
-	Pkg.add("PlutoUI")
-end
 
 # ╔═╡ 63395150-fdff-11ea-317a-956ff6431475
 P = [
@@ -118,8 +115,7 @@ P[:, 1:2]
 
 # ╔═╡ Cell order:
 # ╟─4e5ac200-fdff-11ea-3d80-d56549011cac
-# ╟─b6cede50-fe79-11ea-10c2-13b9e4851b06
-# ╠═a7033650-7175-11eb-0e14-df624245cf5c
+# ╠═b6cede50-fe79-11ea-10c2-13b9e4851b06
 # ╠═63395150-fdff-11ea-317a-956ff6431475
 # ╠═0ff87db0-fe7a-11ea-3afb-ddca5f27acab
 # ╠═7e3e4710-fe79-11ea-3d4b-4fc54cc58d07
